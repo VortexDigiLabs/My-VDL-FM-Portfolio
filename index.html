@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terence Dean Allen | FM Expert & AI Consultant</title>
+    <meta name="description"
+        content="Portfolio of Terence Dean Allen - Bridging the gap between Facilities Management and Artificial Intelligence.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Space+Grotesk:wght@300;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <nav class="navbar">
+        <div class="logo">TDA<span class="accent">.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" id="theme-toggle"><i class="fas fa-moon"></i></button>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <p class="overline">Welcome to the future of operations</p>
+            <h1>Terence Dean <span class="gradient-text">Allen</span></h1>
+            <div class="typewriter">
+                <span id="typing-text"></span><span class="cursor">|</span>
+            </div>
+            <p class="hero-desc">Bridging the gap between physical infrastructure and digital intelligence.</p>
+
+            <div class="cta-group">
+                <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                <a href="#about" class="btn btn-secondary">Explore Profile</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="glow-orb"></div>
+            <div class="grid-overlay"></div>
+        </div>
+    </header>
+
+    <section id="mode-selector" class="mode-selector">
+        <div class="container">
+            <h2>Select Profile View</h2>
+            <div class="toggle-container">
+                <button class="mode-btn active" data-mode="fm">
+                    <i class="fas fa-building"></i> Facilities Management
+                </button>
+                <button class="mode-btn" data-mode="ai">
+                    <i class="fas fa-robot"></i> AI & PropTech
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">Professional Summary</h2>
+            <div class="about-content" id="about-content">
+                <!-- Content injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience section">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline" id="experience-timeline">
+                <!-- Content injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title">Expertise</h2>
+            <div class="skills-grid" id="skills-grid">
+                <!-- Content injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Content injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery section" style="display: none;">
+        <div class="container">
+            <h2 class="section-title">Creative Gallery</h2>
+            <div class="gallery-grid" id="gallery-grid">
+                <!-- Content injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Randburg, South Africa</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+27 65 802 4718</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>vortexdigital.sa369@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <p><a href="https://linkedin.com/in/terencedeanallen"
+                                    target="_blank">linkedin.com/in/terencedeanallen</a></p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Terence Dean Allen. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
